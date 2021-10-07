@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestParameterFromXMl Test(failed)">
+    <parameter name="browser" value="E:\Setup\ChromeDriver92_SeleniumFile\chromedriver_win32\chromedriver.exe"/>
+    <classes>
+      <class name="com.qa.testcases.TestParameterFromXML">
+        <methods>
+          <include name="getBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestParameterFromXML -->
+    </classes>
+  </test> <!-- TestParameterFromXMl Test(failed) -->
+  <test thread-count="5" name="TestParameterFromXMl2 Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.testcases.TestParameterFromXML">
+        <methods>
+          <include name="getBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestParameterFromXML -->
+    </classes>
+  </test> <!-- TestParameterFromXMl2 Test(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->
